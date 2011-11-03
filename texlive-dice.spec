@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /fonts/dice
+# catalog-date 2008-06-07 13:52:00 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-dice
 Version:	20080607
 Release:	1
@@ -39,6 +45,7 @@ various 3D effects.
 %{_texmfdistdir}/fonts/tfm/public/dice/dice3d.tfm
 %doc %{_texmfdistdir}/doc/fonts/dice/dice3d.dvi
 %doc %{_texmfdistdir}/doc/fonts/dice/dice3d.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,3 +56,5 @@ various 3D effects.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
