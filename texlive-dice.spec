@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-dice
 Version:	20080607
-Release:	1
+Release:	2
 Summary:	A font for die faces
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/dice
