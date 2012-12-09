@@ -46,3 +46,17 @@ various 3D effects.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20080607-2
++ Revision: 750954
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20080607-1
++ Revision: 718227
+- texlive-dice
+- texlive-dice
+- texlive-dice
+- texlive-dice
+
