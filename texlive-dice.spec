@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-dice
-Version:	20121211
-Release:	9
+Version:	20170414
+Release:	1
 Summary:	A font for die faces
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/dice
