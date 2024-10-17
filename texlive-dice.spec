@@ -3,7 +3,7 @@ Version:	28501
 Release:	2
 Summary:	A font for die faces
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/dice
+URL:		https://www.ctan.org/tex-archive/fonts/dice
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dice.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dice.doc.r%{version}.tar.xz
